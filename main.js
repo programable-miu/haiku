@@ -27,9 +27,9 @@ $(function () {
     const to_light = current_position < border_position && border_position <= previous_position;
 
     if (to_dark) {
-      $('#outer-wrapper').addClass('dark-mode');
+      $('body').addClass('dark-mode');
     } else if (to_light) {
-      $('#outer-wrapper').removeClass('dark-mode');
+      $('body').removeClass('dark-mode');
     }
 
     // 参考: http://www.yabi-blog.xyz/iphone_ios_background-attachment_fixed_jquery/
