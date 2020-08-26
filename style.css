@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#outer-wrapper {
+  transition: all 1000ms 0s linear;
+  padding: 60px 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#inner-wrapper {
+  width: 340px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-wrapper p {
+  text-indent: 1em;
+  margin: 60px 0;
+}
+
+.haiku-wrapper {
+  text-align: center;
+}
+
+.haiku-wrapper p {
+  margin: 20px 0;
+}
+
+.image-window {
+  background-size: auto calc(max(100vh, 560px));
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 280px;
+  height: 280px;
+  border-radius: 280px;
+  margin: 60px auto;
+}
+
+.image-window-nanohana {
+  background-image: url("./images/nanohana.jpg");
+}
+
+.image-window-niwatori {
+  background-image: url("./images/niwatori.jpg");
+}
+
+.image-window-tanpopo {
+  background-image: url("./images/tanpopo.jpg");
+}
+
+.image-window-tsukiyo {
+  background-image: url("./images/tsukiyo.jpg");
+}
+
+.image-window-hiyoko {
+  background-image: url("./images/hiyoko.jpg");
+}
+
